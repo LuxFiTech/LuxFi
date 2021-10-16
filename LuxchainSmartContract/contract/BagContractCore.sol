@@ -108,8 +108,8 @@ contract BagBase {
 
 
 contract BagCore is BagBase, ERC721 {
-  string public constant name = "LuxChain";
-  string public constant symbol = "LXR";
+  string public constant name = "LuxFi";
+  string public constant symbol = "LXF";
   
   event Transfer(address indexed from, address to, uint256 indexed tokenId);
   event AddBagTransfer(uint indexed bagid, string goods, uint price, string image, address indexed seller,
